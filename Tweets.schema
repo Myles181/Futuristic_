@@ -1,0 +1,522 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "user": {
+        "type": "object",
+        "properties": {
+          "created_at": {
+            "type": "string"
+          },
+          "default_profile_image": {
+            "type": "boolean"
+          },
+          "description": {
+            "type": "string"
+          },
+          "fast_followers_count": {
+            "type": "integer"
+          },
+          "favourites_count": {
+            "type": "integer"
+          },
+          "followers_count": {
+            "type": "integer"
+          },
+          "friends_count": {
+            "type": "integer"
+          },
+          "has_custom_timelines": {
+            "type": "boolean"
+          },
+          "is_translator": {
+            "type": "boolean"
+          },
+          "listed_count": {
+            "type": "integer"
+          },
+          "location": {
+            "type": "string"
+          },
+          "media_count": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "normal_followers_count": {
+            "type": "integer"
+          },
+          "possibly_sensitive": {
+            "type": "boolean"
+          },
+          "profile_banner_url": {
+            "type": "string"
+          },
+          "profile_image_url_https": {
+            "type": "string"
+          },
+          "screen_name": {
+            "type": "string"
+          },
+          "statuses_count": {
+            "type": "integer"
+          },
+          "translator_type": {
+            "type": "string"
+          },
+          "verified": {
+            "type": "boolean"
+          },
+          "withheld_in_countries": {
+            "type": "array"
+          },
+          "id_str": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "created_at",
+          "default_profile_image",
+          "description",
+          "fast_followers_count",
+          "favourites_count",
+          "followers_count",
+          "friends_count",
+          "has_custom_timelines",
+          "id_str",
+          "is_translator",
+          "listed_count",
+          "location",
+          "media_count",
+          "name",
+          "normal_followers_count",
+          "possibly_sensitive",
+          "profile_banner_url",
+          "profile_image_url_https",
+          "screen_name",
+          "statuses_count",
+          "translator_type",
+          "verified",
+          "withheld_in_countries"
+        ]
+      },
+      "id": {
+        "type": "string"
+      },
+      "conversation_id": {
+        "type": "string"
+      },
+      "full_text": {
+        "type": "string"
+      },
+      "reply_count": {
+        "type": "integer"
+      },
+      "retweet_count": {
+        "type": "integer"
+      },
+      "favorite_count": {
+        "type": "integer"
+      },
+      "hashtags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "symbols": {
+        "type": "array"
+      },
+      "user_mentions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id_str": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "screen_name": {
+              "type": "string"
+            },
+            "profile": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id_str",
+            "name",
+            "profile",
+            "screen_name"
+          ]
+        }
+      },
+      "urls": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "expanded_url": {
+              "type": "string"
+            },
+            "display_url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "display_url",
+            "expanded_url",
+            "url"
+          ]
+        }
+      },
+      "media": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "media_url": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "video_url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "media_url",
+            "type"
+          ]
+        }
+      },
+      "url": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "quote_count": {
+        "type": "integer"
+      },
+      "is_quote_tweet": {
+        "type": "boolean"
+      },
+      "is_retweet": {
+        "type": "boolean"
+      },
+      "is_truncated": {
+        "type": "boolean"
+      },
+      "is_thread": {
+        "type": "boolean"
+      },
+      "is_root_thread": {
+        "type": "boolean"
+      },
+      "startUrl": {
+        "type": "string"
+      },
+      "view_count": {
+        "type": "integer"
+      },
+      "root_thread_url": {
+        "type": "string"
+      },
+      "replying_to_tweet": {
+        "type": "string"
+      },
+      "quoted_tweet": {
+        "type": "object",
+        "properties": {
+          "user": {
+            "type": "object",
+            "properties": {
+              "created_at": {
+                "type": "string"
+              },
+              "default_profile_image": {
+                "type": "boolean"
+              },
+              "description": {
+                "type": "string"
+              },
+              "fast_followers_count": {
+                "type": "integer"
+              },
+              "favourites_count": {
+                "type": "integer"
+              },
+              "followers_count": {
+                "type": "integer"
+              },
+              "friends_count": {
+                "type": "integer"
+              },
+              "has_custom_timelines": {
+                "type": "boolean"
+              },
+              "is_translator": {
+                "type": "boolean"
+              },
+              "listed_count": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "string"
+              },
+              "media_count": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "normal_followers_count": {
+                "type": "integer"
+              },
+              "possibly_sensitive": {
+                "type": "boolean"
+              },
+              "profile_banner_url": {
+                "type": "string"
+              },
+              "profile_image_url_https": {
+                "type": "string"
+              },
+              "screen_name": {
+                "type": "string"
+              },
+              "statuses_count": {
+                "type": "integer"
+              },
+              "translator_type": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "verified": {
+                "type": "boolean"
+              },
+              "withheld_in_countries": {
+                "type": "array"
+              },
+              "id_str": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "created_at",
+              "default_profile_image",
+              "description",
+              "fast_followers_count",
+              "favourites_count",
+              "followers_count",
+              "friends_count",
+              "has_custom_timelines",
+              "id_str",
+              "is_translator",
+              "listed_count",
+              "location",
+              "media_count",
+              "name",
+              "normal_followers_count",
+              "possibly_sensitive",
+              "profile_image_url_https",
+              "screen_name",
+              "statuses_count",
+              "translator_type",
+              "verified",
+              "withheld_in_countries"
+            ]
+          },
+          "id": {
+            "type": "string"
+          },
+          "conversation_id": {
+            "type": "string"
+          },
+          "full_text": {
+            "type": "string"
+          },
+          "reply_count": {
+            "type": "integer"
+          },
+          "retweet_count": {
+            "type": "integer"
+          },
+          "favorite_count": {
+            "type": "integer"
+          },
+          "hashtags": {
+            "type": "array"
+          },
+          "symbols": {
+            "type": "array"
+          },
+          "user_mentions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id_str": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "screen_name": {
+                  "type": "string"
+                },
+                "profile": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id_str",
+                "name",
+                "profile",
+                "screen_name"
+              ]
+            }
+          },
+          "urls": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "expanded_url": {
+                  "type": "string"
+                },
+                "display_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "display_url",
+                "expanded_url",
+                "url"
+              ]
+            }
+          },
+          "media": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "media_url": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "video_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "media_url",
+                "type"
+              ]
+            }
+          },
+          "url": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "#sort_index": {
+            "type": "string"
+          },
+          "view_count": {
+            "type": "integer"
+          },
+          "quote_count": {
+            "type": "integer"
+          },
+          "is_quote_tweet": {
+            "type": "boolean"
+          },
+          "is_retweet": {
+            "type": "boolean"
+          },
+          "is_truncated": {
+            "type": "boolean"
+          },
+          "is_thread": {
+            "type": "boolean"
+          },
+          "is_root_thread": {
+            "type": "boolean"
+          },
+          "root_thread_url": {
+            "type": "string"
+          },
+          "replying_to_tweet": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "#sort_index",
+          "conversation_id",
+          "created_at",
+          "favorite_count",
+          "full_text",
+          "hashtags",
+          "id",
+          "is_quote_tweet",
+          "is_retweet",
+          "is_root_thread",
+          "is_thread",
+          "is_truncated",
+          "media",
+          "quote_count",
+          "reply_count",
+          "retweet_count",
+          "symbols",
+          "url",
+          "urls",
+          "user",
+          "user_mentions",
+          "view_count"
+        ]
+      }
+    },
+    "required": [
+      "conversation_id",
+      "created_at",
+      "favorite_count",
+      "full_text",
+      "hashtags",
+      "id",
+      "is_quote_tweet",
+      "is_retweet",
+      "is_root_thread",
+      "is_thread",
+      "is_truncated",
+      "media",
+      "quote_count",
+      "reply_count",
+      "retweet_count",
+      "startUrl",
+      "symbols",
+      "url",
+      "urls",
+      "user",
+      "user_mentions"
+    ]
+  }
+}
